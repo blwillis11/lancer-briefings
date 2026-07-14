@@ -9,7 +9,7 @@
 /*-------------------------------------*/
 :root {
 	/* Primary Colors */
-	--primary-color: #7dbbbb;
+	--primary-color: #ca6c07;
 	--secondary-color: #161c1dcc;
 	--highlight-hover: rgba(255, 255, 255, 0.3);
 	--highlight-active: rgba(255, 255, 255, 0.1);
@@ -28,7 +28,8 @@
 	--primary-logo: #0C3C40;
 	--secondary-logo: #146464;
 	/* Pilot Roster Text */
-	--text-pilot-header: rgba(255, 255, 255, 0.67);
+	--text-pilot-title: rgba(255, 255, 255, 0.93);
+	--text-pilot-header: rgba(255, 255, 255, 0.87);
 	--text-pilot-value: rgba(255, 255, 255, 0.87);
 	--text-pilot-code: rgba(255, 255, 255, 0.47);
 	/* Markdown (Current Assignment, Events Log, Pilot Biography) */
@@ -107,8 +108,9 @@ header {
 	letter-spacing: 0.15em;
 }
 
+/* Company Type */
 .title #title-subheader {
-	font-size: 32px;
+	font-size:32px;
 	margin: 0%;
 	align-self: center;
 	font-family: "Big Shoulders Display", cursive;
@@ -248,7 +250,7 @@ div.location-info {
 	border-left: 1px solid var(--location-separator);
 }
 
-.location-row #ring {
+.location-row #line {
 	border-left: 1px solid var(--highlight-hover);
 	padding-right: 0px;
 }
@@ -1552,7 +1554,7 @@ div.markdown ol li {
 
 .pilot-identity .header {
 	background: var(--primary-color);
-	color: var(--text-headers);
+	color: var(--text-pilot-title);
 	font-size: 32px;
 	margin: 0%;
 	align-self: center;

@@ -2,18 +2,18 @@
   "initialSlug": "001",
   "planetPath": "/planet.webm",
   "animate": true,
-  "defaultTitle": "MSMC |",
+  "defaultTitle": "DC |",
   "icon": "/faction-logos/msmc.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
-    "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
-    "ring": "Annamite",
-    "headerTitle": "Mirrorsmoke",
+    "planet": "Maleen",
+    "year": "5016u",
+    "system": "Nordstern",
+    "gate": "Feldberg Station",
+    "line": "Black Forest",
+    "headerTitle": "Delta",
     "headerSubtitle": "Mercenary Company",
     "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "subheaderSubtitle": "Whiskey-Tango-Foxtrot"
   },
   "pilotSpecialInfo": {}
 }
